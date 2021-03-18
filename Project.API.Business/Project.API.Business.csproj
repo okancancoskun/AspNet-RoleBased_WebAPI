@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Project.API.DataAccess\Project.API.DataAccess.csproj" />
+    <ProjectReference Include="..\Project.API.Dtos\Project.API.Dtos.csproj" />
+    <ProjectReference Include="..\Project.API.Entities\Project.API.Entities.csproj" />
+  </ItemGroup>
+
+</Project>
